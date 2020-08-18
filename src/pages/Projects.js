@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Nav from '../components/Nav';
 import Footer from '../components/Footer'
 import project from '../assets/img/project.svg'
-import Card from '../components/Card'
 
 class Project extends Component {
     render() {
@@ -13,10 +12,10 @@ class Project extends Component {
           <div className="text-part" >
           <div className="text">
             <h1>My Project List</h1>
-            <p><span role="img" aria-label="Heart">⚡</span> Bob - A Flutter App</p>
-            <p><span role="img" aria-label="Heart">⚡</span> Letskhabar - A Blog Website</p>
-            <p><span role="img" aria-label="Heart">⚡</span> IIITian Network (Ranchi) - Website</p>
-            <p><span role="img" aria-label="Heart">⚡</span> Prime-num - A Npm package</p>
+            <p><span role="img" aria-label="Heart">⚡</span> Project 1</p>
+            <p><span role="img" aria-label="Heart">⚡</span> Project 2</p>
+            <p><span role="img" aria-label="Heart">⚡</span> Project 3</p>
+            <p><span role="img" aria-label="Heart">⚡</span> Project 4</p>
           </div>
           </div>
           <div className="img-part" >
@@ -24,8 +23,6 @@ class Project extends Component {
           </div>
           </div>
           <br/>
-          <h1>My Project Sample</h1>
-          <Card />
           <Footer/>
         </div>
       );
