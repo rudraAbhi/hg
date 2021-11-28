@@ -8,7 +8,7 @@ class Nav extends Component {
         <div>
           <header className="header">
             <NavLink to="/" tag={Link} className="logo">
-            <h3>House of geeks</h3>
+            <h3>Somsi</h3>
             </NavLink>
             <input className="menu-btn" type="checkbox" id="menu-btn" />
             <label className="menu-icon" htmlFor="menu-btn">
